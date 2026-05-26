@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+// Converted to a standard React component for Vite SPA (removed TanStack file route)
 import { motion } from "framer-motion";
 import {
   Phone,
@@ -35,9 +35,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-});
+export default Index;
 
 const PHONE = "+919673590780";
 const PHONE_DISPLAY = "+91 96735 90780";
